@@ -1,0 +1,2 @@
+class Inscricoe < ApplicationRecord
+end

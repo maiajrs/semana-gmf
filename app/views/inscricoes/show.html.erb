@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @inscrico.nome %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @inscrico.email %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @inscrico.estado %>
+</p>
+
+<p>
+  <strong>Cidade:</strong>
+  <%= @inscrico.cidade %>
+</p>
+
+<p>
+  <strong>Instituicao:</strong>
+  <%= @inscrico.instituicao %>
+</p>
+
+<p>
+  <strong>Cpf:</strong>
+  <%= @inscrico.cpf %>
+</p>
+
+<%= link_to 'Edit', edit_inscrico_path(@inscrico) %> |
+<%= link_to 'Back', inscricoes_path %>
